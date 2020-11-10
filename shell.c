@@ -67,9 +67,9 @@ int main () {
         }
     
         for (i = 0; i < j; i++) { // j stores the necessaries forks()
-          child = fork();
+          child_process = fork();
 
-          if (child == 0) {
+          if (child_process == 0) {
             int FILE_IN, FILE_OUT; // files for redirect I/O
             int index = command_position_vector[i]; // index of command
             int to_point = index; // to point for the element of current command
@@ -105,7 +105,7 @@ int main () {
 
             execvp(command[index], &command[index]);
             close(fd[i-1][0]);
-          } else if (child > 0) {
+          } else if (child_process > 0) {
             close(fd[i-1][0]);
             close(fd[i-1][1]);
             waitpid(-1, NULL, 0);

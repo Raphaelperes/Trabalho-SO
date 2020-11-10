@@ -1,10 +1,10 @@
 # Construindo um Interpretador Shell - Sistemas Operacionais/Sistemas de Informação - UFV-CRP
 
-# Raphael Peres - 5224
-# João Pedro - 5199
-# Ezequiel Gonçalves - 5206
+## Raphael Peres - 5224
+## João Pedro - 5199
+## Ezequiel Gonçalves - 5206
 
-# Descrição do projeto
+## Descrição do projeto
 
 Como proposto, fizemos um interpretador shell que executa as funções do terminal linux em geral. Utilizamos uma função flush_() que limpaa o buffer, pois a função pronta getcha() estava crashando o código, fazendo com que fosse necessário digitar duas vezes o mesmo comando para que o mesmo fosse executado, além de bugar o quit, fazendo com que só funcionasse a combinação "space" + "quit" para sair do programa. 
 
