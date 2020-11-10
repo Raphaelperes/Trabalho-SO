@@ -1,5 +1,7 @@
 # Trabalho-SO
 Raphael Peres - 5224, João Pedro - 5199, Ezquiel 5206
+
+
 Como proposto no trabalho de Sistemas Operacionais fizemos um interpretador shell que execultadas as funções do terminal no linux, utilizei uma função flush_() que achei para limpar
 o buffer pois a função pronta getcha() estava crashando o codigo fazendo com que se digitasse duas vezes o mesmo codigo para que ele fosse executavel, além de bugar o quit fazendo
 assim que so funcionasse o "espaço"quit para sair do programa, fizemos uma if dentro do loop que ignora as virgulas fazendo com que o programa continue sendo execultado não 
