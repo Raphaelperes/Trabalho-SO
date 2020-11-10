@@ -21,7 +21,9 @@ Ele será toltamente finalizado apenas se digitado o comando "quit".
 Tentamos tratar os 3 tipos diferentes de digitação do quit: sem espaço, com espaço e com duplo espaço. Caso venha a ser digitado mais que 2 espaços, infelizmente ele não irá morrer.
 
 Pra execultar o codigo voce digita:
+
 $ gcc shell.c -o shell
+
 $ ./shell
 
 https://github.com/Raphaelperes/Trabalho-SO
