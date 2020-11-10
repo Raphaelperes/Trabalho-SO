@@ -1,5 +1,5 @@
 # Trabalho-SO
-Raphael Peres - 5224, João Pedro - 5199, Ezquiel 5206
+Raphael Peres - 5224, João Pedro - 5199, Ezequiel 5206
 
 
 Como proposto no trabalho de Sistemas Operacionais fizemos um interpretador shell que execultadas as funções do terminal no linux, utilizei uma função flush_() que achei para limpar
