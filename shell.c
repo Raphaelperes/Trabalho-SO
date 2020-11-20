@@ -8,10 +8,6 @@
 #include <fcntl.h>
 #define MAX_SIZE_LINE 512 // max size for commands
 
-void flush_in () { 
-  int ch;
-  while((ch = fgetc(stdin)) != EOF && ch != '\n' ) {} 
-}
 
 int main () {
   char **command, *token, key[100], receptor[100] = {};
@@ -26,7 +22,7 @@ int main () {
     count1 = 0;
     count2 = 0; 
     scanf("%[^\n]s", receptor); // stores the entire line command in the variable "receptor"
-    flush_in();
+    getchar();
 
     while (count1 <= strlen(receptor)) {
       if (strcmp(key, "quit") == 0) return 1;
